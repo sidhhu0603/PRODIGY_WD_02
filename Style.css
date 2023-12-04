@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  filter: drop-shadow(0px 0px 6px rgba(76, 76, 186, 0.556));
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.stopwatch {
+  text-align: center;
+}
+
+#display {
+  font-size: 68px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 10px;
+}
+
+button{
+  width:48px;
+  height:48px;
+  border-radius:100%;
+  background:rgba(0,0,0,.7);
+  color:#fff;
+  font-size:16px;
+}
+
+button:hover{
+  width:48px;
+  height:48px;
+  border-radius:100%;
+  background:rgba(255, 255, 255, 0.7);
+  color:#000000;
+  font-size:16px;
+}
+
+ul {
+  list-style-type: none;
+  color: white;
+  font-size: x-large;
+  padding: 0;
+}
